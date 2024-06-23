@@ -7,7 +7,7 @@ pipeline{
     }
 
     environment{
-        DOCKER_IMAGE = 'winterzone2/jenkins-test'
+        DOCKER_IMAGE = 'glengold/jenkinstest'
         GITHUB_API_URL = 'https://api.github.com'
         GITHUB_REPO = 'glengol/hello-world'
         GITHUB_TOKEN = credentials('github-creds')
